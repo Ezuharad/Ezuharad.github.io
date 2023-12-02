@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import "base.css";
+
+:root {
+  --ColorDanger: var(--IconRed);
+  --ColorWarn: var(--IconYellow);
+  --ColorInfo: var(--PlasmaBlue);
+  --ColorPositive: var(--NobleFir);
+
+  --ColorTextBase: var(--CardboardGray);
+  --ColorTextAlternate: var(--AlternateGray);
+  --ColorTextLink: var(--HoverBlue);
+  --ColorTextDark: var(--CharcoalGray);
+
+  --ColorBackgroundBase: var(--CharcoalGray);
+  --ColorBackgroundAlternate: var(--ShadeBlack);
+}
