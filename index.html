@@ -1,45 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="Steven Chiacchira's bio, professional and research experience, and">
+        <meta name="keywords" content="Portfolio, Graduate Profile, Computer Science, Research">
+        <meta name="author" content="Steven Chiacchira">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Steven C Portfolio</title>
-        <!-- Bootstrap stylesheet -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles.css" media="screen">
+        <title>Steven Chiacchira's Portfolio</title>
+        <link rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="css/light.css" media="screen">
+        <link rel="stylesheet" href="css/dark.css" media="screen and (prefers-color-scheme:dark)">
+        <link rel="icon" type="image/x-icon" href="assets/icons/favicon.png">
     </head>
     <body>
         <header>
-            <h1>Hi, I'm Steven</h1>
+            <h1 style="margin: var(--LargePadding);"><span class="text-danger">Hi</span>, I'm Steven</h1>
         </header>
         <main>
-            <section id="about" class="container">
-                <div class="col-8">
-                    <h3>My Story</h3>
-                    <p>My name is Steven, and I've been a student studying computer science at Miami University of Ohio since 2022. Although I am new to computing, I have accomplished a great deal in my short time and hope to someday make my mark on the greater industry landscape.</p>
-                </div>
-                <div class="col-4">
-                    <figure>
-                        <img src="assets/Headshot A.jpg" height="200" width="165">
+            <section>
+                <h2>My Story</h2>
+                <div class="grid-container" style="margin-left: var(--SmallIndent)">
+                    <p style="grid-row: 1; grid-column: 1;">My name is Steven, and I've been a student studying computer science at Miami University of Ohio since 2022. Although I am new to computing, I have accomplished a great deal in my short time and hope to someday make my mark on the greater industry landscape. I was recently accepted into the Miami Graduate program, and am concurrently working on a Bachelor's and Master's degree.</p>
+                    <p style="grid-row: 2; grid-column: 1">My journey in computing began with undergraduate computational chemistry research using large language models. I realized I far preferred working with machines to chemicals, so I made the decision to jump to computer science, and I haven't looked back since.</p>
+                    <p style="grid-row: 3; grid-column: 1;">In my free time I enjoy playing Dungeons and Dragons, reading fiction books, cooking, skiing, and spending time with my friends. I've also decided to try using Linux as my desktop operating system, and I enjoy <s>creating the</s> learning to overcome the challenges that come with this.</p>
+                    <figure style="grid-row: span 3; grid-column: 2; max-height:240px; min-width: 200px;">
+                        <img src="assets/images/Headshot A.jpg" style="max-width: 200px;" alt="A professional outdoor headshot of Steven in a plaid shirt.">
                     </figure>
                 </div>
             </section>
-            <section id="skills">
-                <h3>My Skillset</h3>
-                <p></p>
+            <section>
+                <h2>Experience</h2>
+                <div class="grid-container">
+                    <figure style="grid-row: span 2; grid-column: 1; max-height: 150px; max-width: 200px; min-width: 200px;">
+                        <img src="assets/images/Presentation.jpg" style="max-width: 200px;">
+                    </figure>
+                    <p style="grid-row: 1; grid-column: 2;">I've spent much of my time at Miami honing my skills as a researcher and as a student, working as both a teacher's assistant for Data Structures and as a supplemental instructor in General Chemistry.</p>
+                    <p style="grid-row: 2; grid-column: 2;">In addition to positions in academia, I have interned at <a href="https://www.act.org/content/act/en/products-and-services/the-act.html">ACT Inc.</a> as an artificial intelligence engineer and am going to be working at <a href="https://www.textron.com/">Textron</a> this summer with predictive modeling for aircraft maintenance.</p>
+                </div>
             </section>
-            <section id="contact">
-                <h3>Get in Touch</h3>
-                <p></p>
+            <section>
+                <h2>Research</h2>
+                <div style="margin-left: var(--SmallIndent);" class="grid-container">
+                        <p style="grid-row: 2; grid-column: span 3;">My entire time at Miami I have participated in research beyond my classwork. Some of the work I've done is highlighted below, and my CV can be found <a href="assets/downloads/Steven Chiacchira Résumé.pdf">here</a>.</p>
+                        
+                        <h3 class="text-positive centered" style="grid-row: 3; grid-column: 1">Computational Chemistry</h3>
+                        <p style="grid-row: 4; grid-column: 1;">My first ever research was with using recurrent neural networks and transformers for retrosynthesis pathway prediction and discovery.</p>
+                        
+                        <h3 class="text-danger centered" style="grid-row: 3; grid-column: 2;">Adversarial Defense</h3>
+                        <p style="grid-row: 4; grid-column: 2;">Centered around the development and implementation of a new adversarial training algorithm for reducing the effect of adversarial attacks on image models.</p>
+                        
+                        <h3 class="text-info centered" style="grid-row: 3; grid-column: 3;">Fault Localization in Autoencoders</h3>
+                        <p style="grid-row: 4; grid-column: 3;">My current research topic is the automated location and fixing of common faults in autoencoder networks.</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Get in Touch</h2>
+                <div style="margin-left: var(--SmallIndent);">
+                    <p>Feel free to reach out for more information about my work:</p>
+                    <ul>
+                        <li><span class="text-alternate">Email</span>: <a href="mailto:chiaccsa@miamioh.edu">chiaccsa@miamioh.edu</a></li>
+                        <li><span class="text-info">LinkedIn</span>: <a href="https://www.linkedin.com/in/steven-chiacchira/">steven-chiacchira</a></li>
+                        <li><span class="text-alternate">GitHub</span>: <a href="https://github.com/Ezuharad">Ezuharad</a></li>
+                    </ul>
+                </div>
             </section>
         </main>
         <footer>
-            <small>Last updated in March of 2023.</small>
+            <small class="centered">Last updated in December of 2023. Made with love, not JavaScript.</small>
         </footer>
-
-        <!-- Requisite JS for Bootstrap -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
+    
