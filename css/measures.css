@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+:root {
+    /* padding definitions */
+    --SmallPadding: 2px;
+    --MediumPadding: 5px;
+    --LargePadding: 7px;
+
+    --SmallIndent: 27px;
+
+    --PageWidth: 2000px;
+}
