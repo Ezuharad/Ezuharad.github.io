@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import "base.css";
+@import "../colors.css";
 
 :root {
   --ColorDanger: var(--IconRed);
