@@ -1,6 +1,11 @@
 @charset "utf-8";
 @import "measures.css";
 
+/*
+Definitions for various website pieces. 
+*/
+
+/* Tag definitions */
 html {
   font-family: Arial, Helvetica, sans-serif;
 
@@ -39,6 +44,7 @@ li::marker {
   color: var(--ColorTextAlternate);
 }
 
+/* Class definitions */
 .centered {
   display: block;
   text-align: center;
@@ -47,7 +53,7 @@ li::marker {
 .grid-container {
   display: grid;
   grid-template-rows: repeat(auto-fit, auto);
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(var(--MediumBlock), auto));
   gap: var(--MediumPadding);
 }
 

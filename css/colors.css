@@ -1,7 +1,13 @@
 @charset "utf-8";
 
+/*
+Color definitions for website. 
+Taken from KDE Breeze Light (https://develop.kde.org/hig/style/color/light/) 
+and KDE Breeze Dark (https://develop.kde.org/hig/style/color/dark/) 
+color schemes.
+*/
+
 :root {
-  /* color definitions */
   --PaperWhite: #fcfcfc;
   --CardboardGray: #eff0f1;
   --LazyGray: #afb0b3;
