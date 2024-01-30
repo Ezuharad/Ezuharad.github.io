@@ -1,6 +1,11 @@
 @charset "utf-8";
 @import "../colors.css";
 
+/*
+Dark theme.
+Taken from KDE Breeze Dark (https://develop.kde.org/hig/style/color/dark/).
+*/
+
 :root {
   --ColorDanger: var(--IconRed);
   --ColorWarn: var(--IconYellow);

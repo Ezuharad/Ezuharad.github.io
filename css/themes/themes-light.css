@@ -1,6 +1,11 @@
 @charset "utf-8";
 @import "../colors.css";
 
+/*
+Light theme.
+Taken from KDE Breeze Light (https://develop.kde.org/hig/style/color/light/).
+*/
+
 :root {
   --ColorDanger: var(--Pimpinella);
   --ColorWarn: var(--IconYellow);

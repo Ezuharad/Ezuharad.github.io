@@ -1,12 +1,17 @@
 @charset "utf-8";
 
+/*
+Measure definitions in Rems. 
+*/
+
 :root {
-    /* padding definitions */
-    --SmallPadding: 2px;
-    --MediumPadding: 5px;
-    --LargePadding: 7px;
+    --SmallPadding: calc(2rem / 16);
+    --MediumPadding: calc(5rem / 16);
+    --LargePadding: calc(7rem / 16);
 
-    --SmallIndent: 27px;
+    --SmallIndent: calc(27rem / 16);
 
-    --PageWidth: 2000px;
+    --MediumBlock: calc(270rem / 16);
+
+    --PageWidth: calc(2000rem / 16);
 }
