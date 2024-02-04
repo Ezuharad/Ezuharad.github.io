@@ -1,0 +1,10 @@
+# disable all web crawling
+User-agent: *
+Disallow: /
+
+# Google specific user agents
+User-agent: APIs-Google
+User-agent: AdsBot-Google-Mobile
+User-agent: AdsBot-Google
+User-agent: Mediapartners-Google
+Disallow: /
