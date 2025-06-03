@@ -2,8 +2,8 @@
 @import "measures.css";
 
 /*
-Definitions for various website pieces. 
-*/
+ * Definitions for various website pieces. 
+ */
 
 /* Tag definitions */
 html {
@@ -17,23 +17,6 @@ body {
   max-width: var(--PageWidth);
   margin: auto;
   padding: var(--LargePadding);
-}
-
-header, footer, figure {
-  border-radius: var(--MediumPadding);
-  padding: var(--SmallPadding);
-
-  background-color: var(--ColorBackgroundAlternate);
-}
-
-figure {
-  border-radius: var(--MediumPadding);
-  padding: var(--LargePadding)
-}
-
-section {
-  margin-left: var(--SmallIndent);
-  margin-right: var(--SmallIndent);
 }
 
 a {
@@ -82,30 +65,32 @@ li::marker {
   color: var(--ColorPositive);
 }
 
-.box-warn {
+.box-rounded {
   border-radius: var(--SmallPadding);
   padding: var(--MediumPadding);
+}
+
+.bg-warn {
   background-color: var(--ColorWarn);
   color: var(--ColorTextDark);
 }
 
-.box-danger {
-  border-radius: var(--SmallPadding);
-  padding: var(--MediumPadding);
+.bg-danger {
   background-color: var(--ColorDanger);
   color: var(--ColorTextDark);
 }
 
-.box-info {
-  border-radius: var(--SmallPadding);
-  padding: var(--MediumPadding);
+.bg-info {
   background-color: var(--ColorInfo);
   color: var(--ColorTextDark);
 }
 
-.box-positive {
-  border-radius: var(--SmallPadding);
-  padding: var(--MediumPadding);
+.bg-positive {
   background-color: var(--ColorPositive);
   color: var(--ColorTextDark);
+}
+
+.bg-white {
+  background-color: var(--ColorBackgroundWhite);
+  color: var(--ColorTextDark)
 }
