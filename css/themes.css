@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+/*
+ * Master theme sheet.
+ */
+
+@import "themes/themes-light.css";
+@import "themes/themes-dark.css" (prefers-color-scheme: dark);

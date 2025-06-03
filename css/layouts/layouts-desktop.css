@@ -4,3 +4,9 @@
 /*
 Layout rules for desktop.
 */
+
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: blue;
+  }
+}

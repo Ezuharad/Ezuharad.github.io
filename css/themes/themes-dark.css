@@ -2,21 +2,23 @@
 @import "../colors.css";
 
 /*
-Dark theme.
-Taken from KDE Breeze Dark (https://develop.kde.org/hig/style/color/dark/).
-*/
+ * Dark theme.
+ * Taken from KDE Breeze Dark (https://develop.kde.org/hig/style/color/dark/).
+ */
 
 :root {
-  --ColorDanger: var(--IconRed);
-  --ColorWarn: var(--IconYellow);
-  --ColorInfo: var(--PlasmaBlue);
-  --ColorPositive: var(--NobleFir);
+  --ColorDanger: var(--AuroraRed);
+  --ColorWarn: var(--AuroraYellow);
+  --ColorInfo: var(--Frost2);
+  --ColorPositive: var(--AuroraGreen);
 
-  --ColorTextBase: var(--CardboardGray);
-  --ColorTextAlternate: var(--AlternateGray);
-  --ColorTextLink: var(--HoverBlue);
-  --ColorTextDark: var(--CharcoalGray);
+  --ColorTextBase: var(--Snow1);
+  --ColorTextAlternate: var(--Snow2);
+  --ColorTextLink: var(--Frost3);
+  --ColorTextDark: var(--Night1);
 
-  --ColorBackgroundBase: var(--CharcoalGray);
-  --ColorBackgroundAlternate: var(--ShadeBlack);
+  --ColorBackgroundBase: var(--Night2);
+  --ColorBackgroundAlternate: var(--Night3);
+
+  --ColorBackgroundWhite: var(--Snow2);
 }

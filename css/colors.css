@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 /*
-Color definitions for website. 
-Taken from KDE Breeze Light (https://develop.kde.org/hig/style/color/light/) 
-and KDE Breeze Dark (https://develop.kde.org/hig/style/color/dark/) 
-color schemes.
-*/
+ * Color definitions for website. 
+ * Taken from KDE Breeze Light (https://develop.kde.org/hig/style/color/light/) 
+ * and KDE Breeze Dark (https://develop.kde.org/hig/style/color/dark/) 
+ * color schemes.
+ */
 
 :root {
   --PaperWhite: #fcfcfc;
@@ -29,4 +29,28 @@ color schemes.
   --HyperBlue: #3daee6;
   --PlasmaBlue: #3daee9;
   --AbyssBlue: #2980b9;
+
+/*
+ * More nord theme colors from
+ * https://www.nordtheme.com/docs/colors-and-palettes
+ */
+  --Night1: #2e3440;
+  --Night2: #3b4252;
+  --Night3: #434c5e;
+  --Night4: #4c566a;
+
+  --Snow1: #d8dee9;
+  --Snow2: #e5e9f0;
+  --Snow3: #eceff4;
+
+  --Frost1: #8fbcbb;
+  --Frost2: #88c0d0;
+  --Frost3: #81a1c1;
+  --Frost4: #5e81ac;
+
+  --AuroraRed: #bf616a;
+  --AuroraOrange: #d08770;
+  --AuroraYellow: #ebcb8b;
+  --AuroraGreen: #a3be8c;
+  --AuroraPurple: #b48ead;
 }

@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import "../measures.css";
+
+/*
+Layout rules for tablet landscape.
+*/
+
+@media screen and (min-width: 961px) {
+  body {
+    background-color: green
+  }
+}
+

@@ -2,21 +2,22 @@
 @import "../colors.css";
 
 /*
-Light theme.
-Taken from KDE Breeze Light (https://develop.kde.org/hig/style/color/light/).
-*/
+ * Light theme.
+ */
 
 :root {
-  --ColorDanger: var(--Pimpinella);
-  --ColorWarn: var(--IconYellow);
-  --ColorInfo: var(--PlasmaBlue);
-  --ColorPositive: var(--VerdantGreen);
+  --ColorDanger: var(--AuroraRed);
+  --ColorWarn: var(--AuroraYellow);
+  --ColorInfo: var(--Frost2);
+  --ColorPositive: var(--AuroraGreen);
 
-  --ColorTextBase: var(--ShadeBlack);
-  --ColorTextAlternate: var(--IconGray);
-  --ColorTextLink: var(--HoverBlue);
-  --ColorTextDark: var(--ShadeBlack);
+  --ColorTextBase: var(--Night1);
+  --ColorTextAlternate: var(--Night2);
+  --ColorTextLink: var(--Frost3);
+  --ColorTextDark: var(--Night1);
 
-  --ColorBackgroundBase: var(--CardboardGray);
-  --ColorBackgroundAlternate: var(--AlternateGray);
+  --ColorBackgroundBase: var(--snow3);
+  --ColorBackgroundAlternate: var(--snow1);
+
+  --ColorBackgroundWhite: var(--Snow2);
 }
