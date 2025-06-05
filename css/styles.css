@@ -1,9 +1,0 @@
-@charset "utf-8";
-
-/*
-Master sheet for all css themes.
-*/
-
-@import "components.css" only screen;
-@import "themes.css" only screen;
-@import "layouts.css" only screen;
