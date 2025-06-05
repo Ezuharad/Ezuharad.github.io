@@ -3,81 +3,135 @@
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Steven Chiacchira">
-        <meta name="description" content="Steven Chiacchira's bio, professional and research experience, and">
-        <meta name="keywords" content="Portfolio, Graduate Profile, Computer Science, Research, Miami University">
+        <meta name="description" content="Steven Chiacchira's bio and professional and research experience">
+        <meta name="keywords" content="Portfolio, Profile, Computer Science, Research, Mathematics">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
         <title>Steven Chiacchira's Portfolio</title>
-        
-        <link rel="stylesheet" type="text/css" href="css/components.css" media="screen">
-
-        <link rel="stylesheet" type="text/css" href="css/themes/themes-light.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="css/themes/themes-dark.css" media="screen and (prefers-color-scheme: dark)">
-
-        <!-- last loaded stylesheet gets precedence -->
-        <link rel="stylesheet" type="text/css" href="css/layouts/layouts-desktop.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="css/layouts/layouts-tablet.css" media="screen and (max-width: 1280px)">
-        <link rel="stylesheet" type="text/css" href="css/layouts/layouts-mobile.css" media="screen and (max-width: 620px)">
 
         <link rel="icon" type="image/x-icon" href="favicon.png">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+        <script src="js/auto-theme.js"></script>
     </head>
+
     <body>
-        <header>
-            <h1 style="margin: var(--LargePadding);"><span class="text-danger">Hi</span>, I'm Steven</h1>
-        </header>
-        <main>
-            <section>
-                <h2>My Story</h2>
-                <div class="grid-container" style="margin-left: var(--SmallIndent)">
-                    <p style="grid-row: 1; grid-column: 1;">My name is Steven, and I've been a student studying computer science at Miami University of Ohio since 2022. Although I am new to computing, I have accomplished a great deal in my short time and hope to someday make my mark on the greater industry landscape. I was recently accepted into the Miami Graduate program, and am concurrently working on a Bachelor's and Master's degree.</p>
-                    <p style="grid-row: 2; grid-column: 1">My journey in computing began with undergraduate computational chemistry research using large language models. I realized I far preferred working with machines to chemicals, so I made the decision to jump to computer science, and I haven't looked back since.</p>
-                    <p style="grid-row: 3; grid-column: 1;">In my free time I enjoy playing Dungeons and Dragons, reading fiction books, cooking, skiing, and spending time with my friends. I've also decided to try using Linux as my desktop operating system, and I enjoy <s>creating the</s> <b>learning to overcome</b> the challenges that come with this.</p>
-                    <figure style="grid-row: span 3; grid-column: 2; max-height:240px; min-width: 200px; max-width: 260px;">
-                        <img src="assets/images/Headshot A.jpg" style="min-width: 200px; max-width: 200px;" alt="A professional outdoor headshot of Steven in a plaid shirt.">
-                    </figure>
-                </div>
-            </section>
-            <section>
-                <h2>Experience</h2>
-                <div class="grid-container">
-                    <figure style="grid-row: span 2; grid-column: 1; max-height: 150px; min-width: 200px; max-width: 200px;">
-                        <img src="assets/images/Presentation.jpg" style="max-width: 200px;" alt="Steven presenting research to a group of people.">
-                    </figure>
-                    <p style="grid-row: 1; grid-column: 2;">I've spent much of my time at Miami honing my skills as a researcher and as a student, working as both a teacher's assistant for Data Structures and as a supplemental instructor in General Chemistry.</p>
-                    <p style="grid-row: 2; grid-column: 2;">In addition to positions in academia, I have interned at <a href="https://www.act.org/content/act/en/products-and-services/the-act.html">ACT Inc.</a> as an artificial intelligence engineer and at <a href="https://www.textron.com/">Textron</a> as a data analyst.</p>
-                </div>
-            </section>
-            <section>
-                <h2>Research</h2>
-                <div style="margin-left: var(--SmallIndent);" class="grid-container">
-                        <p style="grid-row: 2; grid-column: span 3;">My entire time at Miami I have participated in research beyond my classwork. Some of the work I've done is highlighted below, and my CV can be found <a href="assets/downloads/Steven Chiacchira Résumé.pdf">here</a>.</p>
-                        
-                        <h3 class="text-positive text-centered" style="grid-row: 3; grid-column: 1">Computational Chemistry</h3>
-                        <p style="grid-row: 4; grid-column: 1;">My first ever research was with using recurrent neural networks and transformers for retrosynthesis pathway prediction and discovery.</p>
-                        
-                        <h3 class="text-danger text-centered" style="grid-row: 3; grid-column: 2;">Adversarial Defense</h3>
-                        <p style="grid-row: 4; grid-column: 2;">Centered around the development and implementation of a new adversarial training algorithm for reducing the effect of adversarial attacks on image models.</p>
-                        
-                        <h3 class="text-info text-centered" style="grid-row: 3; grid-column: 3;">Fault Studies in Autoencoders</h3>
-                        <p style="grid-row: 4; grid-column: 3;">Part of my thesis research is centered on the classification and symptoms of common faults in autoencoder networks.</p>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <h2>Get in Touch</h2>
-                <div style="margin-left: var(--SmallIndent);">
-                    <p>Feel free to reach out for more information about my work:</p>
-                    <ul>
-                        <li><span class="text-alternate">Email</span>: <a href="mailto:chiaccsa@miamioh.edu">chiaccsa@miamioh.edu</a></li>
-                        <li><span class="text-info">LinkedIn</span>: <a href="https://www.linkedin.com/in/steven-chiacchira/">steven-chiacchira</a></li>
-                        <li><span class="text-alternate">GitHub</span>: <a href="https://github.com/Ezuharad">Ezuharad</a></li>
-                    </ul>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <small class="text-centered">Last updated in January 2025. Made with love, not JavaScript.</small>
-        </footer>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-2 mb-lg-0 fs-2"><span class="text-primary">Steven</span>.</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fs-2" href="index.html#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-2" href="projects.html#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-2" href="index.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <!-- Hero -->
+        <section class="row flex-row-reverse align-items-center g-5 pt-lg-5 ps-5 pb-5" id="hero">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <div class="d-flex container-fluid justify-content-end p-0">
+              <img src="assets/images/graduation-koch.png" class="d-block ml-lg-auto img-fluid" alt="Steven before graduation with a Piano="700" height="500">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-2 fw-bold text-body-emphasis lh-1 mb-3">Hello, I'm <span class="text-primary display-1">Steven</span>.</h1>
+            <p class="lead fs-3">
+            I like to solve difficult problems with people.
+            </p>
+            <a href="assets/downloads/Résumé_Steven_Chiacchira_ML.pdf" class="btn btn-lg btn-primary">Download Résumé</a>
+          </div>
+        </section>
+        <!-- About Me -->
+        <section class="p-5 bg-body-tertiary" id="about">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="display-4">About Me</h1>
+                <p class="fs-3">
+                I am a computer scientist looking for the next chapter in his professional journey. As someone who continually pushes to grow both through individual and shared learning, I am always looking to explore new technologies in the realms of artificial intelligence, with my driving force being the goals of <b>Quality</b>, <b>Efficiency</b>, and <b>Adaptability</b>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row justify-content-center text-center">
+              <div class="col-sm-12 col-md-4">
+                <h2 class="display-5">Quality</h2>
+                <p class="fs-3">Quality work is defined by its context; to maximize its utility while minimizing its expense. Thus, the only universally desired quality is efficiency.</p>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <h2 class="display-5">Efficiency</h2>
+                <p class="fs-3">To work efficiently is to prioritize, and to prioritize is to let go of perfection. In putting something first one must necessarily put another last.</p>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <h2 class="display-5">Adaptability</h2>
+                <p class="fs-3">Ordering of work requires an understanding of evolving needs. Adaptation is then the communication of and adjustment to the context of work.</p>
+              </div>
+            </div>
+          </div>
+          <hr/>
+        </section>
+        <!-- Contact -->
+        <section class="p-5" id="contact">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="display-4">Contact</h1>
+                <p class="fs-3">
+                  Feel free to reach out regarding professional opportunities. I will try respond to actionable, inquiry, or introductory Emails within a day.
+                </p>
+              </div>
+            </div>
+          </div>
+            <div class="row justify-content-center text-center">
+              <div class="col-sm-12 col-xxl-4">
+                <h2 class="display-6">
+                  <span class="d-inline-flex align-items-center">
+                    <i class="bi bi-envelope-fill fs-1 me-3"></i>
+                    <a href="mailto:schiacchira@Gmail.com">schiacchira@Gmail.com</a>
+                  </span>
+                </h2>
+              </div>
+              <div class="col-sm-12 col-xxl-4">
+                <h2 class="display-6">
+                  <span class="d-inline-flex align-items-center">
+                    <i class="bi bi-linkedin text-primary fs-1 me-3"></i>
+                    <a href="https://linkedin.com/in/steven-chiacchira">steven-chiacchira</a>
+                  </span>
+                </h2>
+              </div>
+              <div class="col-sm-12 col-xxl-4">
+                <h2 class="display-6">
+                  <span class="d-inline-flex align-items-center">
+                    <i class="bi bi-github fs-1 me-3"></i>
+                    <a href="https://github.com/Ezuharad">Ezuharad</a>
+                  </span>
+                </h2>
+              </div>
+            </div>
+          <hr/>
+        </section>
+      </main>
+      <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container text-center">
+          <span class="text-muted">&copy; 2025 Steven Chiacchira. All rights reserved.</span>
+        </div>
+      </footer>
     </body>
 </html>
-    
